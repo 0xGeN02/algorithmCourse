@@ -26,6 +26,7 @@ The course is taught by ThePrimegean, a seasoned software engineer with 15 years
 ## Additional Resources
 
 - [Frontend Masters](https://frontendmasters.com/)
+- [Algorithm Course](https://frontendmasters.com/courses/algorithms/)
 
 ## License
 
