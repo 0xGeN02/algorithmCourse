@@ -21,7 +21,7 @@ export default function two_crystal_balls(breaks: boolean[]): number {
     i-= jumpAmount;
 
     
-    for (let j = 0; j < jumpAmount && i < breaks.length; j++, i++){
+    for (let j = 0; j < jumpAmount && i < breaks.length; ++j, ++i){
         // If the ball broke, return the index
         if (breaks[i]){
             return i;
