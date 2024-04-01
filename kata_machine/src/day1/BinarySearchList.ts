@@ -7,8 +7,8 @@
 */
 export default function bs_list(haystack: number[], needle: number): boolean {
     
-    let low = haystack[0];
-    let high = haystack.length;
+    let low = 0;
+    let high = haystack.length; 
     do{
         const midpoint = Math.floor(low + (high-low)/2); //Calculate the midpoint of the list
         const value = haystack[midpoint];
